@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>devfinder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="logo">devfinder</h1>
+            <button id="theme-toggle" class="theme-btn">
+                <span id="theme-text">DARK</span>
+                <img id="theme-icon" src="moon.png" alt="moon">
+            </button>
+        </header>
+
+        <section class="search-section">
+            <div class="search-container">
+                <img src="Combined Shape.png" class="search-icon" alt="search">
+                <input type="text" id="search-input" placeholder="Search GitHub username…">
+                <button id="search-btn">Search</button>
+            </div>
+        </section>
+
+        <main class="user-card">
+            <div class="avatar-col">
+                <img src="Oval.png" alt="Octocat" class="avatar">
+            </div>
+
+            <div class="info-col">
+                <div class="user-header">
+                    <div class="name-box">
+                        <h2 id="name">The Octocat</h2>
+                        <a href="#" class="username">@octocat</a>
+                    </div>
+                    <p id="joined-date" class="date">Joined 25 Jan 2011</p>
+                </div>
+
+                <p id="bio" class="bio">This profile has no bio</p>
+
+                <div class="stats-bar">
+                    <div class="stat-item">
+                        <span>Repos</span>
+                        <strong id="repos">8</strong>
+                    </div>
+                    <div class="stat-item">
+                        <span>Followers</span>
+                        <strong id="followers">3938</strong>
+                    </div>
+                    <div class="stat-item">
+                        <span>Following</span>
+                        <strong id="following">9</strong>
+                    </div>
+                </div>
+
+                <div class="links-grid">
+                    <div class="link-item">
+                        <img src="003-pin.png" class="icon">
+                        <span>San Francisco</span>
+                    </div>
+                    <div class="link-item not-available">
+                        <img src="004-twitter.png" class="icon">
+                        <span>Not Available</span>
+                    </div>
+                    <div class="link-item">
+                        <img src="002-url.png" class="icon">
+                        <a href="#">https://github.blog</a>
+                    </div>
+                    <div class="link-item">
+                        <img src="001-office-building.png" class="icon">
+                        <span>@github</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
